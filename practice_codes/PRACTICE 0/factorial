@@ -1,0 +1,9 @@
+puts "Enter a number:"
+n = gets.chomp.to_i
+fact = 1
+
+(1..n).each do |i|
+  fact *= i
+end
+
+puts "Factorial of #{n} is #{fact}"
